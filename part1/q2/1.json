@@ -1,0 +1,16 @@
+{
+    "axiom": "X",
+    "productions": 
+    {
+        "X": "F[+X]X[-X]FX",
+        "F": "FF"
+    }
+    ,
+    "finals": 
+    {
+        "+": "45",
+        "-": "-45",
+        "[": "ctx.save()",
+        "]": "ctx.restore()"
+    }
+}
